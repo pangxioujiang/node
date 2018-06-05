@@ -2,9 +2,9 @@ FROM node:8-alpine
 
 RUN apk update
 
-COPY ./package.json /app/package.json
+WORKDIR /app
 
-RUN cd /app
+COPY ./package.json /app/package.json
 
 RUN pwd
 
