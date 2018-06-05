@@ -1,6 +1,6 @@
 FROM node:8
 
-RUN apk update
+RUN apt update
 
 WORKDIR /app
 
