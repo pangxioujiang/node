@@ -11,7 +11,7 @@
     },
     "devDependencies": {
         "axios": "^0.18",
-        "bootstrap": "^3.0.0",
+        "bootstrap-sass": "^3.3.7",
         "popper.js": "^1.12",
         "cross-env": "^5.1",
         "jquery": "^3.2",
@@ -20,6 +20,7 @@
         "vue": "^2.5.7"
     },
     "dependencies": {
+        "bootstrap": "^3.3.7",
         "bootstrap-fileinput": "^4.4.8",
         "metismenu": "^2.7.4",
         "moment": "^2.20.1",
